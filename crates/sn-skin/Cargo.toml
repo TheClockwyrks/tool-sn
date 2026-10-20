@@ -1,8 +1,10 @@
 [package]
 name = "test-cabinet-sn-skin"
+description = "The sn-skin binary a run image carries to build a skinned surface-nets character."
 edition.workspace = true
 version.workspace = true
 license.workspace = true
+repository.workspace = true
 publish.workspace = true
 
 # The `sn-skin` binary: the Surface Nets skinned-character tool (smooth mid-fidelity
@@ -10,7 +12,7 @@ publish.workspace = true
 # surface to `test-cabinet-model-skin` (the shared skinning CLI — the skeleton binding,
 # skin weighting, and skinned-`.glb` encode). The Marching Cubes / Dual Contouring
 # siblings are `mc-skin` / `dc-skin`. See
-# `apps/docs/src/content/docs/testing/asset-generation/skinned-binaries.md`.
+# <https://docs.testcabinet.ai/testing/asset-generation/skinned-binaries/>.
 [[bin]]
 name = "sn-skin"
 path = "src/main.rs"

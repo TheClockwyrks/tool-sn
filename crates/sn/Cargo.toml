@@ -1,8 +1,10 @@
 [package]
 name = "test-cabinet-sn"
+description = "The surface-nets field domain and the sn binary a run image carries to mesh a static model."
 edition.workspace = true
 version.workspace = true
 license.workspace = true
+repository.workspace = true
 publish.workspace = true
 
 # The `sn` binary and its library: the **surface-nets** meshing tool for static 3D
